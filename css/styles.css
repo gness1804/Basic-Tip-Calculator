@@ -1,0 +1,16 @@
+body {
+	text-align: center;
+	background-image: url(http://henriettemichaux.be/wp-content/uploads/2012/11/background-gray.jpg);
+}
+div {
+	border: 1px solid gray;
+	background-color: white;
+	padding: 10px;
+}
+input {
+	border-color: black;
+}
+input:hover{
+	border-color: red;
+	background-color: orange;
+}

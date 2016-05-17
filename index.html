@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div>
+    <h1>Tip Calculator</h1>
+	 (Pre-Tip) Bill Amount &nbsp; $<input type="number" placeholder="Pre-Tip Bill Amt" id="prebill">
+    <br><br>
+    <label>Tip %</label>
+	  <select id="tippct">
+     <option>20</option>
+	   <option>15</option>
+	   <option>10</option>
+	 </select> &nbsp; <input type="submit" onclick="tipCalc()"></input><br></br>
+	 Tip Amount &nbsp; $<input id="tipamt" type="number" placeholder="Tip Amount"></input><br><br>
+   Total to Pay with Tip &nbsp; $<input id="total" type="number" placeholder="Total to Pay with Tip"></input>
+   </div>
+  </body>
+</html>		
